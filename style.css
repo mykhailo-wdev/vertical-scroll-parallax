@@ -1,0 +1,75 @@
+html,
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #111;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-box {
+  text-align: center;
+}
+.content-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+.lavender {
+  background-color: #d8bfd8;
+}
+.pale-yellow {
+  background-color: #f0e68c;
+}
+.pale-lavender {
+  background-color: #f0fff0;
+}
+.lilac {
+  background-color: #e6e6fa;
+}
+.pale-turquoise {
+  background-color: #f5f5dc;
+}
+.scroll-wrap {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.sec-move {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-move:nth-child(1) {
+  background-color: #fcb935;
+}
+.sec-move:nth-child(2) {
+  background-color: #eb3d44;
+}
+.sec-move:nth-child(3) {
+  background-color: #72b63c;
+}
+.sec-move:not(:first-child) {
+  top: 100%;
+}
